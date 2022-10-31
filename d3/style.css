@@ -1,0 +1,102 @@
+body {
+  background: #030c4e;
+}
+#intro {
+  height: 100vh;
+  color: white;
+}
+#intro h1 {
+  font-size: 75px;
+  animation: fadein ease-in 1s;
+  margin: 20px;
+}
+#intro code {
+  margin-top: 20px;
+}
+
+#intro h3 {
+  opacity: 0;
+  animation-delay: 1s;
+  animation-name: fadein;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#about,
+#contact {
+  background-color: #c9a690;
+  color: white;
+  padding: 30px;
+}
+
+#about h1 {
+  margin-bottom: 0;
+}
+
+#about h5 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#contact {
+  background: #55bfb6;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    /* margin-top: 50px; */
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#contact a {
+  color: white;
+}
+
+#contact .btn-primary {
+  width: 100%;
+  background: #135d7a;
+}
+
+#portfolio {
+  background: #4ca3c6;
+  padding: 30px;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 30px;
+}
+.bg-dark {
+  background: #598392 !important;
+}
+#projectDetails {
+  background: #124559;
+  color: white;
+  padding: 30px;
+}
+#projectDetails img {
+  border-radius: 10px;
+}
+
+#projectDetails #arrows {
+  font-size: 36px;
+  margin-top: 30px;
+}
+
+#techStack {
+  background-color: #01161e;
+  padding: 5px;
+  border-radius: 5px;
+}

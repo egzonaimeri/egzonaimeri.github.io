@@ -1,0 +1,118 @@
+<!DOCTYPE html><!--I AM SENDING YOU HTML!!!-->
+<html lang="en"> <!-- TRANSCRIBE WHAT IM SENDING YOU IN ENGLISH!!!-->
+<head> <!--ALL RELEVENT DEPENDENCIES THAT ARE USED IN THE CODE BUT DONT KNOW UP ON THE PAGE-->
+    <meta charset="UTF-8"> <!-- ALLOWING FOR MODERN CHARACTERS INCLUDING EMOJI'S-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- TELLING THE BROWSER THAT THIS IS RESPONSIVE CODE ( CHANGES TO THE TYPE OF DEVISE USED)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- TELLING THE BROWSER HOW TO SCALE WIDTH AND HEIGHT-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> <!-- LINKING CSS FILE-->
+    <title>Form hw</title> <!-- TITLE OF THE PAGE THAT SHOWS UP ON THE BROWSER-->
+</head>
+
+
+
+
+<body> <!-- EVERYTHING THAT SHOWS UP ON THE PAGEEEEE!!!!!!!!-->
+    <div class="container col-8"> <!-- COL-8 = TWO SPACINGS ON EACH SIDE REMOVED (COL-12 WHOLE PAGE)-->
+        <div class="row">
+            <div id="registration"> <!-- ID for spaceing/styling-->
+                <h1 class="text-center">Registration Form</h1>
+            </div>
+        <!-- </br> -->
+            <div id="required"><!-- ID for spaceing/styling-->
+                <h5 class="text-center">Please fill out this form with the required information </h1>
+            </div>
+        </div> <!-- END OF TITLE ROW WITH "PLEASE FILL OUT...."-->
+
+
+
+        <div class="row">
+            <div class="col">
+                <form action="submit" id="form"> <!-- EVERYTHING WITHIN FORM IS TO BE SUBMITTED-->
+                    <div >
+                        <p class="firstName"> Enter Your First Name:</p> <!-- SENTENCE ABOVE THE FILL IN PORTION-->
+                        <input type="text"> <!-- CREATES FILLABLE CONTENT BOX-->
+                    </div>
+                    <div >
+                        <p class="lastName"> Enter Your Last Name:</p><!-- SENTENCE ABOVE THE FILL IN PORTION-->
+                        <input type="text"><!-- CREATES FILLABLE CONTENT BOX-->
+                    </div>
+                    <div >
+                        <p class="email"> Enter Your Email:</p><!-- SENTENCE ABOVE THE FILL IN PORTION-->
+                        <input type="text"><!-- CREATES FILLABLE CONTENT BOX-->
+                    </div>
+                    <div >
+                        <p class="password"> Create a New Password:</p><!-- SENTENCE ABOVE THE FILL IN PORTION-->
+                        <input type="text"><!-- CREATES FILLABLE CONTENT BOX-->
+
+                    </div> <!-- END OF FIRST INPUT SECTION-->
+
+
+
+
+                    <hr> <!-- ELEMENT USED TO CREATE HORIZONTAL DIVISION LINE-->
+                    <div class="form-check"> <!-- FROM BOOTSTRAP-->
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Personal Account
+                        </label>
+                    </div>
+
+
+                    <div class="form-check"> <!-- FROM BOOTSTRAP-->
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Business Account
+                        </label>
+                    </div>
+
+
+                    <div class="form-check"> <!-- FROM BOOTSTRAP-->
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                          I accept the terms and conditions
+                        </label>
+                      </div>
+
+
+                      <hr><!-- ELEMENT USED TO CREATE HORIZONTAL DIVISION LINE-->
+                      <div class="form-group" id="upload">
+                        <label for="exampleFormControlFile1">Upload a profile picture:</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                      </div>
+                      <div>
+                        <p class="firstName"> Input your age (years):</p> <!-- SENTENCE ABOVE THE FILL IN PORTION-->
+                        <input type="text"> <!-- CREATES FILLABLE CONTENT BOX-->
+                    </div>
+
+
+
+                    
+                    <div class="row" id="hear"> <!-- ID for spaceing/styling-->
+                        <p>How did you hear about us?</p>
+                            <div id="selector"> <!-- ID for spaceing/styling-->
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                             </select>
+                            </div>
+                    </div>
+                        
+                    
+                    <div > 
+                        <p>Provide a bio:</p>
+                        <input id="beach" class="form-control" type="text" placeholder="I like coding on the beach...." readonly>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+
+
+</div>
+</body>
+</html>

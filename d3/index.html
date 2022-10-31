@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Egzona's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> <!-- Coming from the style page!-->
+</head>
+<body>
+   <div class="container"> <!-- Container of material--> <!-- Container-fluid would fit the entire page, with no padding-->
+    <div class="row">
+        
+       <section id="intro" class="d-flex
+         flex-column
+          justify-content-center
+           align-items-center"> <!-- Website is broken up in different sections, easier for screenreaders--> <!--Flex the content as a column-->
+            <h1> Egzona Imeri</h1> <!-- First Line-->
+            <h3> System's Trainer and a CiC Student</h3> <!-- Second Line-->
+            <code> HTML & CSS 👩🏼‍💻</code> <!-- Third Line/ Code is used to give a different font-->
+       </section>
+
+
+       <secion id="about">
+            <h1> About</h1>
+            <h5> Egzona is a new student at CiC and also works as a Systems Trainer for the City of Syracuse. This is all new to her and she is trying to understand how everyhing is supposed to be done.</h5>
+       </secion>
+
+       <section id="contact">
+            <div class="row">
+                <div class="col-12">
+                    <h1> Contact</h1>
+                </div><!-- End of Col 12 -->
+
+            </div> <!-- End of first row in contact-->
+
+            <div class="row"> <!-- 10/17 Felt off here, need to get text to show up-->
+                <div class="col-sm-12 col-md-6"> <!--SM and MD Mobile Responsiveness-->
+                    Want to get in touch?  Fill out the form or Shoot me an <a href="mailto:exi1519@gmail.com">email!</a> <!-- <a href=" Mailto: EMAIL>" used to open your email so others can message-->
+                </div> <!-- end of first col in row #2 -->
+
+
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col"> 
+                            <input type="Text" placeholder="First Name"></input> 
+                        </div>  <!-- End col-6 for first name-->
+                        <div class="col">
+                            <input type="Text" placeholder="Last Name"></input>
+                        </div> <!-- End col-6 for Last Name-->
+                    </div><!-- End of First ROW IN FORM-->
+
+
+                    <div>
+                       <input type="email" placeholder="Email"/>
+                    </div>
+                    <div>
+                        <textarea placeholder="What's your message"></textarea>
+                     </div>
+                    <div>
+                        <button type="button" class="btn btn-primary"> 
+                            Send Message 📬
+                        </button> <!-- BUTTOM -->
+                    </div>
+
+
+                </div> <!-- end of first col in row #2 -->
+            </div> <!-- End of second row-->
+       </section><!-- END OF SECTION-->
+
+
+
+       <section id="portfolio"> <!-- Beginnning of Last Section -->
+            <h1> Portfolio</h1>
+            <p> To view more details about the projects, click on any of the cards.</p>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <img src="https://portfolio.maxmatthe.ws/weatherApp.png" class="card-img-top" alt=" Weather App Screenshot"> <!---->
+                        <div class="card-body">
+                          <h5 class="card-title">Weather App</h5>
+                          <p class="card-text">First front-end Project modeled after the Weather app</p>
+                          <a href="weather.html" class="btn btn-primary">Rain down on me🌧</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://portfolio.maxmatthe.ws/feedbackForm.png" class="card-img-top" alt=" Give a 30 Second Feedback Section "> <!---->
+                        <div class="card-body">
+                          <h5 class="card-title">Feedback Form</h5>
+                          <p class="card-text"> Feedback from modeled after Google Forms</p>
+                          <a href="#" class="btn btn-primary"> I wanna know..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src=" https://portfolio.maxmatthe.ws/maxflix.png"class="card-img-top" alt=" My First Project"> <!---->
+                        <div class="card-body">
+                          <h5 class="card-title"> Maxflix</h5>
+                          <p class="card-text">My first project all by myself! Recreation of a particular Streaming Services</p>
+                          <a href="#" class="btn btn-primary">Get Streaming</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            ©2022 Xona Tech LLC
+        </footer>
+        
+
+    </div>
+
+
+
+   </div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+<!--minimal viable product-->
+
+
+
+<!-- Flexbox froggy a tool that we can use to flex the content of our -->
+<!--Flex-column is -->
+<!-- justify-content-center-->
+<!-- Align-item-center-->
+
+
+<!--VH= viewpoint height-->
+<!--VW= Viewpoint Width-->

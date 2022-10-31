@@ -1,0 +1,55 @@
+:root {
+  --darkPurple: #75157c;
+  --lightPurple: #e3cdf6;
+}
+
+body {
+  background-color: var(--lightPurple);
+}
+
+section {
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+section:nth-child(1) {
+  border-top: 7px solid var(--darkPurple);
+  margin-top: 10px;
+}
+
+section:nth-child(2) input {
+  width: 50%;
+}
+
+hr {
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-widht: 600px) {
+  section:nth-child(2) input {
+    width: 100%;
+  }
+}
+
+#submitForm {
+  background-color: var(--darkPurple);
+}
+
+#clearForm {
+  border-color: var(--darkPurple);
+  color: var(--darkPurple);
+}
+#topics,
+#rates {
+  padding-bottom: 25px;
+}
+
+.teacher {
+  margin-left: 25px;
+}
+
+.tonight {
+  margin-bottom: 25px;
+}

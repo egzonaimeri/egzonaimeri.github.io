@@ -1,0 +1,131 @@
+body {
+  background: black;
+  color: white;
+}
+nav {
+  padding: 5px;
+  padding: 5px;
+}
+
+#linksBar span {
+  margin-left: 6px;
+  margin-right: 6px;
+  font-size: 12px;
+}
+
+#linksBar span:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+#icons span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#headlineContent {
+  background-image: url("img/cover.jpg");
+  min-height: 525px;
+  background-size: cover;
+}
+
+#netflixN {
+  height: 25px;
+}
+
+#seriesRow {
+  color: darkgray;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-top: 150px;
+}
+#showName {
+  font-family: "Cabin", sans-serif;
+  font-size: 55px;
+  text-shadow: 3px 3px black;
+}
+#topTen {
+  height: 25px;
+}
+
+#topTen img {
+  width: 25px;
+}
+
+#topTen span {
+  font-weight: bold;
+  padding-left: 10px;
+  text-shadow: 1px 1px black;
+}
+#headlineContent p {
+  margin-top: 10px;
+}
+
+#play {
+  background: white;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 15px 5px 5px;
+  font-weight: 500;
+}
+#playArrow {
+  font-size: 28px;
+}
+
+#info {
+  color: white;
+  background-color: rgba(120, 120, 120, 0.8);
+  border-radius: 4px;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  font-weight: 600;
+}
+#infoIcon {
+  font-size: 29px;
+}
+
+#tvMa {
+  margin-top: 250px;
+}
+
+#tvMa .material-symbols-outlined {
+  border: 2px solid white;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+#rating {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px 20px 5px 20px;
+  border-left: 2px solid white;
+  margin-left: 10px;
+}
+
+#firstVideoRow {
+  margin-top: 30px;
+}
+
+#abnormalScreenSize {
+  display: none;
+}
+
+@media only screen and (max-widthl: 650px), (min-width: 1400px) {
+  #abnormalScreenSize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-fluid {
+    display: none;
+  }
+}
+
+#secondVideoRow {
+  margin-top: 30px;
+}
+
+#thirdVideoRow {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
