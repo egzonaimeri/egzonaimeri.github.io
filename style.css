@@ -6,7 +6,7 @@ body {
 
 #intro {
   height: 100vh;
-  color: white;
+  color: rgb(6, 6, 143);
 }
 #intro h1 {
   font-size: 75px;
